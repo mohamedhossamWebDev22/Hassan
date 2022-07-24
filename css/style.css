@@ -72,6 +72,35 @@ body{
 .content .ctrl #btn:hover{
     animation: none hov 1.3s;
 }
+/*
+============================
+*/
+
+.FromMe h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+
+    color: white;
+    background-color: rgb(0, 132, 255);
+
+    padding: 14px 14px;
+    
+    box-sizing: content-box;}
+
+.FromAI h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+
+    color: rgb(0, 132, 255);
+    background-color: rgb(240, 231, 231);
+
+    padding: 14px 14px;
+    
+    box-sizing: content-box;
+}
+/*
+===========================
+*/
 
 /*
 Animations*/
