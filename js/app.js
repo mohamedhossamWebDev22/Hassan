@@ -1,9 +1,16 @@
 let btn = document.getElementById("btn"),
 inp = document.getElementById("in");
 
+const txtm = document.getElementById("me"),
+    txtHe = document.getElementById("he");
+
 class User{
     constructor (){
 
+    }
+
+    say(){
+        
     }
 }
 
