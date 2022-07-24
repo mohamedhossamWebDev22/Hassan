@@ -27,8 +27,16 @@ body{
     font-size: 20px;
 }
 .content .chat{
-    position: fixed;
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 69%;
+}
+.content .chat iframe{
+    width: 100%;
 }
 .content .ctrl{
     position: fixed;
