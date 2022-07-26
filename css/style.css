@@ -57,7 +57,7 @@ body{
 
     font-size: 30px;
 }
-.content .ctrl #btn{
+.content .ctrl .botn{
     margin-right: 2%;
 
     font-family: sans-serif;
@@ -69,14 +69,14 @@ body{
     background-color: rgb(0, 132, 255);
 }
 
-.content .ctrl #btn:hover{
-    animation: none hov 1.3s;
+.content .ctrl .botn:hover{
+    animation: none hov 0.8s;
 }
 /*
 ============================
 */
 
-.FromMe h1 {
+.FromMe p {
     font-family: sans-serif;
     font-size: 30px;
 
@@ -87,7 +87,7 @@ body{
     
     box-sizing: content-box;}
 
-.FromAI h1 {
+.FromAI p {
     font-family: sans-serif;
     font-size: 30px;
 
@@ -106,7 +106,7 @@ body{
 Animations*/
 @keyframes hov{
     50%{
-        font-size: 45px;
+        font-size: 38px;
         -webkit-filter: contrast(50%);
     }
 }
